@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Definition</title>
+		<link rel='stylesheet' href="{{ url_for('static', filename='index.css') }}">
+	</head>
+	<body>
+		<h1>Definition Word</h1>
+
+		<div class='left'>
+			<textarea rows="24" cols="100" id='text' placeholder="Write here"></textarea>
+		</div>
+		<div class='left'>
+			<label>Definition: </label><br/>
+			<p id='definition'> </p>
+			<label>Synonyms: </label><br/>
+			<ul id='synonym_list'> </ul>
+		</div>
+		<script type="text/javascript" src="{{ url_for('static', filename='index.js') }}"></script>
+	</body>
+</html>

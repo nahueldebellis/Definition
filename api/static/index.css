@@ -1,5 +1,27 @@
+@font-face {
+  font-family: myFirstFont;
+  src: url(imperfecta.ttf);
+  font-weight: bold;
+}
+body{
+	background-color: rgb(31, 31, 31);
+	color:rgb(202,202,202);
+	font-family: myFirstFont;
+}
+p{
+	font-size: 60px;
+	font-weight: 900;
+	letter-spacing: -1px;
+
+	margin:5px;
+	padding:10px;
+}
+footer{
+	clear: both;
+
+}
+
 .left{
 	float:left;
 	margin-right:5px;
 }
-
